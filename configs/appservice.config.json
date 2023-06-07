@@ -1,0 +1,22 @@
+{
+  "appservice": {
+    "skuName": "P3v2",
+    "skuTier": "PremiumV2",
+    "skuSize": "P3v2",
+    "skuFamily": "Pv2",
+    "skuCapacity": 10,
+    "hostName": "appsource.microsoft.com",
+    "hostNameCanary": "appgallery.spza-canary.net",
+    "preferredDocDB": "West US,South Central US,North Central US,East US,North Europe,West Europe,Southeast Asia,East Asia,Australia Southeast",
+    "regionShortcutBlob": "wus",
+    "regionShortcut": "wus",
+    "regionShortcutDocDB": "euap-cus",
+    "deploymentRegion": "CentralUS",
+    "searchCode": "wus",
+    "deploymentRegionCanary": "WestUS",
+    "healthCheck": {
+      "path": "/view/healthcheck",
+      "maxPingFailures": "4"
+    }
+  }
+}
